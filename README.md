@@ -9,5 +9,8 @@
 
 Tested on Python 3.10.12
 
-## Usage:
-`sharpen.py <source> <destination>`
+## Usage (fool-proof):
+- `python -m venv venv`
+- `source venv/bin/activate` | or if using Windows `venv\Scripts\activate.bat`
+- `python -m pip install -r requirements.txt`
+- `sharpen.py <source> <destination>`
