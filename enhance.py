@@ -8,7 +8,7 @@ from PIL import Image, ImageFilter
 # Low effort working script...
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print(f'Usage: {__name__} <source> <destination>') 
+        print(f'Usage: enhance.py <source> <destination>') 
         exit(1)
     src = Path(sys.argv[1])
     dst = Path(sys.argv[2])
